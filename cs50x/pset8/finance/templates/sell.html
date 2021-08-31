@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="form-group">
+            <select class="form-control" id="exampleFormControlSelect1" name="ticker_selected">
+              {% for i in tickers %}
+                  <option>{{ i }}</option>
+              {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="nof_shares" placeholder="Number of Shares" type="text">
+        </div>
+
+        <button class="btn btn-primary" type="submit">$ell</button>
+    </form>
+
+    <br></br>
+
+    <img height="500px" src="https://i.pinimg.com/originals/82/87/ec/8287eca4ba802ce3a25a91ae68014a9b.jpg">
+{% endblock %}

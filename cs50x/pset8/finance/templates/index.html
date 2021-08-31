@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Positions
+{% endblock %}
+
+{% block main %}
+    <h1>Positions</h1>
+
+    <br></br>
+
+    <table id="index_table">
+        <tr>
+            <th>Ticker</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>P/L</th>
+            <th>Total Value</th>
+
+        </tr>
+
+        {% for i in range(0, len) %}
+            <tr>
+                <td>{{ tickers[i] }}</td>
+                <td>{{ names[i] }}</td>
+                <td>{{ shares[i] }}</td>
+                <td>{{ current_price[i] }}</td>
+                <td>{{ PL[i] }}</td>
+                <td>{{ total_values[i] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <br></br>
+
+    <h3 id="index_h3">Liquidation Value: {{ liquidation_value}}</h2>
+
+    <br></br>
+
+    <img height="500px" src="https://imgix.bustle.com/lovelace/uploads/135/6c22cc80-7bc3-0131-6939-3ea522ec65fa.gif">
+{% endblock %}

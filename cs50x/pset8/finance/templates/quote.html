@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="ticker" placeholder="Ticker Symbol" type="text">
+        </div>
+
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+
+    <br></br>
+
+    <img height="300px" src="https://33.media.tumblr.com/05d642e8f9b5f9316b483fdb94a4c3f9/tumblr_n36i4mOpNp1qe3aixo1_500.gif">
+{% endblock %}

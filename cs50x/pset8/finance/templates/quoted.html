@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1>Found 1 Result for "{{ ticker }}"</h1>
+
+    <table id="quoted_table">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Ticker</th>
+        </tr>
+        <tr>
+        {% for value in dic %}
+            <td>{{ value }}</td>
+        {% endfor %}
+        </tr>
+    </table>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h1>History</h1>
+
+    <br></br>
+
+    <table id="index_table">
+        <tr>
+            <th>Ticker</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Date</th>
+
+        </tr>
+
+        {% for i in range(0, len) %}
+            <tr>
+                <td>{{ tickers[i] }}</td>
+                <td>{{ shares[i] }}</td>
+                <td>{{ prices[i] }}</td>
+                <td>{{ dates[i] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <br></br>
+
+    <img height="300px" src="https://38.media.tumblr.com/28899aa0bb6cb470e1b9fd41e5a685a2/tumblr_n36i4mOpNp1qe3aixo2_500.gif">
+
+{% endblock %}
