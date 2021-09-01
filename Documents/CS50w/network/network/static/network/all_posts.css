@@ -1,0 +1,259 @@
+/* ------ All posts view ------- */
+
+#title {
+    color: #dc3545;
+    text-align: center;
+}
+
+@keyframes round1 {
+    0% {
+        border-radius: 0;
+    }
+    50%{
+        border-radius: 0;
+    }
+    100% {
+        border-radius: 25px 25px 0 0;
+    }
+}
+
+#user {
+    border: 1px solid;
+    line-height: 0;
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 1rem;
+    animation: round1 2s;
+    padding:0;
+}
+
+@keyframes fold {
+    0%{
+        border-radius: 0;
+    }
+    50%{
+        border-radius: 0;
+    }
+    100% {
+        border-radius: 24px 0 0 0;
+    }
+}
+
+#userlink {
+    color: white;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 24px 0 0 0;
+    animation: fold 2s;
+}
+
+#userlink:hover {
+    background-color: white;
+    color: #dc3545;
+    border-color: #dc3545;
+    border-right-width: 2px;
+}
+
+@keyframes round2 {
+    0% {
+        line-height: 0;
+    }
+    50%{
+        line-height: 1.55;
+    }
+    100% {
+    }
+}
+
+#body {
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-top: none;
+    animation: round2 2s;
+}
+
+#timestamp {
+    font-size: .5em;
+}
+
+@keyframes round3 {
+    0% {
+        border-radius: 0;
+    }
+    50%{
+        border-radius: 0;
+    }
+    100% {
+        border-radius: 0 0 25px 25px;
+    }
+}
+
+#likes {
+    border: 1px solid;
+    border-top: none;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+    animation: round3 2s;
+    height: 33px;
+}
+
+#likes_icon {
+    padding-top: 2px;
+    color: #dc3545;
+    display: inline-block;
+}
+
+#num_likes {
+    float: left;
+    padding-left: 1rem;
+    padding-top: 3px;
+}
+
+#edit {
+    float: right;
+    font-size: .5em;
+    color: lightgray;
+    background-color: white;
+    border:none;
+    border-radius: 0px 0 24px 0;
+    height: 32px;
+}
+
+#back_button {
+    border-radius: 25px 0 0 25px;
+    padding-left: 1rem;
+}
+
+#forward_button {
+    border-radius: 0 25px 25px 0;
+    padding-right: 1rem;
+}
+
+#back_button_disabled {
+    border-radius: 25px 0 0 25px;
+    padding-left: 1rem;
+    opacity: .5;
+}
+
+#forward_button_disabled {
+    border-radius: 0 25px 25px 0;
+    padding-right: 1rem;
+    opacity: .5;
+}
+
+
+/* --------- Profile view ---------- */
+
+#header{
+    text-align: center;
+}
+
+#ff {
+    text-align: center;
+}
+
+#following {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 25px 0 0 25px;
+    font-size: 1em;
+    padding: .5rem;
+    padding-left: 1rem;
+    line-height: 1;
+}
+
+#text_following {
+    font-size: .5em;
+    margin: 0;
+}
+
+#followers {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 0 25px 25px 0;
+    font-size: 1em;
+    padding: .5rem;
+    padding-right: 1rem;
+    line-height: 1;
+}
+
+#text_followers {
+    font-size: .5em;
+    margin: 0;
+}
+
+#follow_div {
+    text-align: center;
+}
+
+#follow {
+    width: 136px;
+    margin-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#follow:hover {
+    background-color: white;
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+
+/* ------ Edit view ---------*/
+
+
+
+
+#edit_submit {
+    color: #dc3545;
+    font-size: 2em;
+    line-height: 1;
+    text-decoration: none;
+    padding:.5rem;
+}
+
+#edit_submit:hover {
+    text-shadow:
+    0 0 10px black,
+    0 0 20px grey,
+    0 0 30px lightgray;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+
+#link_div {
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    animation: spin 2s;
+}
+
+@keyframes expand {
+    0% {
+        line-height: 0;
+        border-radius: 0px;
+    }
+    50% {
+        line-height: 1.55;
+        border-radius: 0px;
+    }
+    100% {
+        border-radius: 25px;
+    }
+}
+
+#edit_text {
+    border: 1px solid;
+    animation-name: expand;
+    border-radius: 25px;
+    line-height: 1.5;
+    animation-duration: 2s;
+}

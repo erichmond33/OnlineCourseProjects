@@ -1,0 +1,104 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div class="container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+
+
+            <div class="container text-center div1_1_123" id="div1_1_1">
+                <h1 class="messages" id="h1_1">ATM</h1>
+                <p id="p1_1">** This is for explanation purposes only **</p>
+                <br>
+                <button id="button1" type="button" class="btn btn-outline-dark buttons">Show Guide</button>
+            </div>  
+
+
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="container background" id="div2">
+
+
+
+        <div class="row m-auto" id="non-owner-view">
+
+            <div class="row mx-auto">
+                <div class="col-3 mx-auto"></div>
+                <div class="col-6 m0">
+                    <h1 class="chatroom-header mt-3 mb-3">The Cycle Poll</h1>
+                </div>
+
+                <div class="col-3 mx-auto my-auto">
+                    <a target="" href="{% url 'atm_memes' %}"><button id="button1" type="button" class="offset-xl-9 offset-lg-8 offset-md-7 btn btn-outline-dark buttons">Memes</button></a>
+                </div>                
+    
+            </div>
+
+
+
+
+            
+            <!-- THIS IS THE FEED -->
+            <div class="col-xl-5 col-lg-6 col-md-9 col-10 p-3 ms-lg-auto mx-auto" id="div2_2">
+                <canvas id="myChart" data-bs-toggle="tooltip" data-bs-placement="left" title="Unlike the Memes poll, the Cycle poll will display every avaliable candidate"></canvas>
+            </div>
+
+
+
+
+            
+            <!-- THIS IS THE CHATROOMS -->
+            <div class="col-md-3 col-sm-3 d-none d-lg-block me-lg-auto" id="">
+                <h1 class="chatroom-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="If this were a real vote, it looks like Doob&Derb are about to win">
+                    Leader</h1>
+                <hr>
+
+                <div class="profile-div" id="profile-div1">
+                    <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/derb.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Doob&Derb</h1>
+                    <p class="description" id="description">This is actually a real artist, and they and their associated projects are by no means affiliated with the Avant-Gardes. (Although, we would love to have them as candidates for v2.) They are only included for explanation purposes, and because their project's helped inspire this one.</p>
+
+
+                </div>
+            </div>
+
+
+
+            <!------------------THIS IS THE OTHER VIEW ONCE THE PAGE IS SHRUNK-------------------------->
+
+
+
+            <!-- THIS IS THE CHATROOMS -->
+            <div class="col-lg-6 col-10  d-block d-lg-none  mx-auto mt-3" id="">
+                <hr>
+                <h1 class="chatroom-header">Leader</h1>
+                <hr>
+
+                <div class="profile-div" id="profile-div">
+                    <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/derb.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Doob&Derb</h1>
+                    <p class="description" id="description">This is actually a real artist, and they and their associated projects are by no means affiliated with the Avant-Gardes. (Although, we would love to have them as candidates for v2.) They are only included for explanation purposes, and because their project's helped inspire this one.</p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+      
+
+    
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/atm.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/atm.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}

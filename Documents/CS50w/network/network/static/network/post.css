@@ -1,0 +1,56 @@
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #dc3545;
+    animation: fade 2s 
+}
+
+@keyframes expand {
+    0% {
+        line-height: 0;
+        border-radius: 0px;
+    }
+    50% {
+        line-height: 1.55;
+        border-radius: 0px;
+    }
+    100% {
+        border-radius: 25px;
+    }
+}
+
+#compose-body {
+    border: 1px solid;
+    animation-name: expand;
+    border-radius: 25px;
+    line-height: 1.5;
+    animation-duration: 2s;
+}
+
+@keyframes round {
+    0% {
+        border-radius: 0px;
+        margin-left: -100px;
+    }
+    50%{
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+    100% {
+        border-radius: 50px;
+    }
+}
+
+#shitButton {
+    border-radius: 50px;
+    animation: round 2s;
+    line-height: 1.45;
+}

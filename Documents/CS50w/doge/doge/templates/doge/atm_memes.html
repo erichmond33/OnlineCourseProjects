@@ -1,0 +1,204 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div class="container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+
+
+            <div class="container text-center div1_1_123" id="div1_1_1">
+                <h1 class="messages" id="h1_1">ATM</h1>
+                <p id="p1_1">** This is for explanation purposes only **</p>
+                <br>
+                <button id="button1" type="button" class="btn btn-outline-dark buttons">Show Guide</button>
+            </div>  
+
+
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="container background" id="div2">
+
+
+
+        <div class="row m-auto" id="non-owner-view">
+
+            <div class="row mx-auto">
+                <div class="col-3 m-auto ">
+                </div>
+                <div class="col-6 mx-auto text-center">
+                    <h1 class="chatroom-header mt-3 mb-3 mx-auto">The Memes Poll</h1>
+                </div>
+
+                <div class="col-3 mx-auto my-auto">
+                    <a target="" href="{% url 'atm' %}"><button data-bs-toggle="tooltip" data-bs-placement="left" title="Check out the Cycle poll" id="button1" type="button" class="offset-xl-9 offset-lg-8 offset-md-7 btn btn-outline-dark buttons">Cycle</button></a>
+                </div>                
+    
+            </div>
+            
+
+
+            
+            <!-- THIS IS THE CHATROOMS -->
+            <div class="col-md-3  d-none d-xl-block  mx-auto" id="">
+                <h1 class="chatroom-header">Leader</h1>
+                <hr>
+
+                <div class="profile-div" id="profile-div1">
+                    <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/bayc.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">BAYCCLMG</h1>
+                    <p class="description" id="description">Owner of Saturn, and top landscaper within my immediate family. My interests include horseshoes and hand grenades. No not the band.</p>
+
+                    <!--
+                    <div id="" class="profile-post-div">
+                        <div class="text-center" id="">
+                            <p id="profile-meme1-likes" class="profile-likes">4865</p>
+
+                            <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="" class="">
+                        <img id="profile-meme1" src="/static/doge/images/explorer.png" class="img-fluid" alt="...">
+                    </div>
+
+
+                    <div id="" class="profile-post-div">
+                        <div class="text-center" id="">
+                            <p id="profile-meme2-likes" class="profile-likes">8621</p>
+
+                            <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="" class="">
+                        <img id="profile-meme2" src="/static/doge/images/shrek.png" class="img-fluid" alt="...">
+                    </div>-->
+                </div>
+            </div>
+
+
+
+
+
+            <!-- THIS IS THE FEED -->
+            <div class="col-xl-5 col-lg-6 col-md-9 col-10 p-3 mx-auto" id="div2_2">
+                <canvas id="myChart" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The poll will display the top ten posts; however, only the top three will win a free Avant-Garde"></canvas>
+            </div>
+
+
+
+
+
+
+            <!-- THIS IS THE PROFILES -->
+            <div class="col-xl-3  col-lg-4 d-none d-lg-block mx-auto" id="">
+                <h1 class="chatroom-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="This is what you are voting for in the Memes. The top three most liked posts for each week will get a free Avant-Garde">
+                    Prizes</h1>
+                    <hr>
+
+                <div class="profile-div" id="profile-div2">
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize1.png"  alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #36</h1>
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize2.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #37</h1>
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize3.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #38</h1>
+
+                </div>
+            </div>
+
+
+            <!------------------THIS IS THE OTHER VIEW ONCE THE PAGE IS SHRUNK-------------------------->
+
+            <!-- THIS IS THE PROFILES -->
+            <div class="col-lg-6 col-10  d-block d-lg-none  mx-auto mt-3" id="">
+                <hr>
+                <h1 class="chatroom-header">Prizes</h1>
+                <hr>
+
+                <div class="profile-div" id="profile-div">
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize1.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #36</h1>
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize2.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #37</h1>
+
+                    
+                    <img id="prize-img" class="img-fluid prize-img rounded" src="/static/doge/images/prize3.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">Avant-Garde #38</h1>
+
+                </div>
+            </div>
+
+
+            <!-- THIS IS THE CHATROOMS -->
+            <div class="col-lg-6 col-10  d-block d-xl-none  mx-auto mt-3" id="">
+                <hr>
+                <h1 class="chatroom-header">Leader</h1>
+                <hr>
+
+                <div class="profile-div" id="profile-div">
+                    <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/bayc.png" alt="skull gif" />
+                    <h1 class="profile-name" id="profile-name">BAYCCLMG</h1>
+                    <p class="description" id="description">Owner of Saturn, and top landscaper within my immediate family. My interests include horseshoes and hand grenades. No not the band.</p>
+
+                    <!--
+                    <div id="" class="profile-post-div">
+                        <div class="text-center" id="">
+                            <p id="profile-meme1-likes" class="profile-likes">4865</p>
+
+                            <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="" class="">
+                        <img id="profile-meme1" src="/static/doge/images/explorer.png" class="img-fluid" alt="...">
+                    </div>
+
+
+                    <div id="" class="profile-post-div">
+                        <div class="text-center" id="">
+                            <p id="profile-meme2-likes" class="profile-likes">8621</p>
+
+                            <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="" class="">
+                        <img id="profile-meme2" src="/static/doge/images/shrek.png" class="img-fluid" alt="...">
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+      
+
+    
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/atm.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/atm_memes.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}

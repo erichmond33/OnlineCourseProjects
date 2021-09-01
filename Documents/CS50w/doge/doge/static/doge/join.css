@@ -1,0 +1,80 @@
+
+
+/* First div container */
+#div1 {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+
+    padding-top: 5rem;
+    padding-bottom:2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0 0 25px 25px;
+}
+    /* Second div container */
+    #div1_1 {
+        background-attachment: fixed;
+        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+        background-position: -5px -25px;
+        background-repeat: repeat;
+        background-size: auto;
+        text-align: center;
+        background-color: #324731;
+
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+        /* This is the messages and buttons divs */
+        .div1_1_123 {
+            margin: auto;
+}
+
+            /* Holds the messeges and buttons */
+            .messages {
+                font-size: 5vw;
+                color: #c1cdb8;
+                font-family: caslon openface;
+                border-radius: 25px;
+                line-height: 1;
+
+            }
+
+            /* This holds the form */
+            #form1 {
+                margin: auto;
+            }
+
+            label {
+                font-family: caslon;
+                color: #c1cdb8;
+                float: left;
+            }
+
+            .buttons {
+                font-family: caslon;
+                background-color: #c1cdb8;
+                border-color: #c1cdb8;
+                color: #324731;
+            }
+
+            .buttons:hover {
+                background-color: transparent;
+                color: #c1cdb8;
+                border-color: #c1cdb8;;
+            }
+
+            #button3 {
+                margin-top: 5px;
+            }
+
+        #p1 {
+            display: none;
+            text-align: left;
+            color: #c1cdb8;
+            font-family: caslon;
+            margin-top: 10px;
+        }

@@ -1,0 +1,23 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+    <h1>
+        Whatcha Thinkin?
+    </h1>
+
+    <div class="container">
+        <hr>
+        <form id="post_form">
+            <textarea class="form-control" id="compose-body" rows="5" placeholder="Body"></textarea>
+            <hr>
+            <button id="shitButton" type="Submit" class="btn btn-danger">+</button>
+        </form>
+    </div>
+{% endblock %}
+
+{% block script %} 
+    <link rel="stylesheet" href="{% static 'network/post.css' %}">
+    <script src="{% static 'network/post.js' %}"></script>
+{% endblock %}

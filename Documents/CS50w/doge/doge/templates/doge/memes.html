@@ -1,0 +1,338 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+    
+    <div class="container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+
+
+            <div class="container text-center div1_1_123" id="div1_1_1">
+                <h1 class="messages" id="h1_1">Memes</h1>
+                <p id="p1_1">
+                    "The Memes", "The Cycle", and "The ATM" are not currently avliable. Rest assured that the 
+                    Avant-Gardes team are working like mad men to create these functionalities ASAP. In the meantime,
+                    all of "The Memes" weekly competitions are being held on Twitter. Each week on Saturday at 
+                    noon the winners are selected.
+                    <br><br>
+                    ** You must own an Avant-Garde in order to win the contest **
+                </p>
+                <br>
+                <button id="button1" type="button" class="btn btn-outline-dark buttons">Show Guide</button>
+
+
+            </div>  
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container background" id="div2">
+        <div class="row" id="non-owner-view">
+            
+            <h1 class="chatroom-header mt-3 mb-3">Week 10</h1>
+            
+        <!-- THIS IS THE CHATROOMS -->
+        <div class="col-md-3 d-none d-xl-block mx-auto">
+            <h1 class="chatroom-header">Chatrooms</h1>
+            <hr>
+            <ul class="list-group" id="chatroom-list" >
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    The Boiz
+                    <span id="poo" class="chatroom-count badge bg-light rounded-pill">3.3k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    Doggo
+                    <span class="chatroom-count badge bg-light rounded-pill">4.5k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    HODL
+                    <span class=" chatroom-count badge bg-light rounded-pill">4.2k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    Old School Only
+                    <span class=" chatroom-count badge bg-light rounded-pill">6.2k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    A-G Devs
+                    <span class=" chatroom-count badge bg-light rounded-pill">1.3k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    Co Projects
+                    <span class=" chatroom-count badge bg-light rounded-pill">2.7k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    General
+                    <span class=" chatroom-count badge bg-light rounded-pill">4.2k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The final product will have chatrooms and all of your basic social platform functionalities">
+                    <button id="chatroom-button" type="button" class="mx-auto bg-light btn btn-outline-dark">+</button>
+                    </li>
+                </ul>
+                <br>
+        </div>
+
+
+
+
+
+        <!-- THIS IS THE FEED -->
+        <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12 mx-auto" id="div2_2">
+
+
+
+
+            <div id="div2_2_1" class="feed-username-likes-icon"  data-bs-toggle="tooltip" data-bs-placement="left" title="Each week you have the option to post and like memes. Every like you get brings you closer to getting a free Avant-Garde, and every like you give does the same for the other users">
+                <div class="feed-username-div" id="div2_2_1_1" >
+                    <h1 class="feed-username" id="h2_2_1">Bill Yates</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes"id="">4376</p>
+
+                    <svg data-bs-toggle="tooltip" data-bs-placement="bottom" title="Your like is your vote for the ATM" id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="div2_2_2" class="feed-img">
+                <img id="img2_1" src="/static/doge/images/post-meme1.png" class="img-fluid" alt="..." data-bs-toggle="tooltip" data-bs-placement="right" title="Scroll">
+            </div>
+
+
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_2">Crack Sparrow</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">4135</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/pirate.png" class="img-fluid" alt="...">
+            </div>
+
+
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_3">BAYCCLMG</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">69m</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/bored.png" class="img-fluid" alt="...">
+            </div>
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_4">Hydrated Brick</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">1706</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme4.png" class="img-fluid" alt="...">
+            </div>
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_5">Holden Tudix</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">6427</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme5.png" class="img-fluid" alt="...">
+            </div>
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_6">Mother Nature</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">427</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme6.png" class="img-fluid" alt="...">
+            </div>
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_7">Hot Einstein</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">371</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme9.png" class="img-fluid" alt="...">
+            </div>
+
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_8">born2hug</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">1170</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme10.png" class="img-fluid" alt="...">
+            </div>
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_9">Kuul Aid</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">699</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/post-meme11.png" class="img-fluid" alt="...">
+            </div>
+
+
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_12">JustRemember</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">2906</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/meme12.png" class="img-fluid" alt="...">
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <!-- THIS IS THE PROFILES -->
+        <div class="col-xl-3  col-lg-4 d-none d-lg-block mx-auto" id="">
+            <h1 class="chatroom-header">Profile</h1>
+                <hr>
+
+            <div class="profile-div" id="profile-div">
+                <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/billyates.png" alt="skull gif" />
+                <h1 class="profile-name" id="profile-name">Bill Yates</h1>
+                <p class="description" id="description">Bill Gate's identical adopted twin. Internet explorer fanatic, and the patent holder for sliced bread.</p>
+
+                <!--
+                <div id="" class="profile-post-div">
+                    <div class="text-center" id="">
+                        <p id="profile-meme1-likes" class="profile-likes">4865</p>
+    
+                        <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="" class="">
+                    <img id="profile-meme1" src="/static/doge/images/explorer.png" class="img-fluid" alt="...">
+                </div>
+
+
+                <div id="" class="profile-post-div">
+                    <div class="text-center" id="">
+                        <p id="profile-meme2-likes" class="profile-likes">8621</p>
+    
+                        <svg id=""  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="profile-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="" class="">
+                    <img id="profile-meme2" src="/static/doge/images/shrek.png" class="img-fluid" alt="...">
+                </div>-->
+                </div>
+        </div>
+        </div>
+
+    </div>
+
+
+
+
+    
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/memes.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/memes.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+{% endblock %}

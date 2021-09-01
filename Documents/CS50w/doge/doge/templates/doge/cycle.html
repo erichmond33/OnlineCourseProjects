@@ -1,0 +1,146 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+    
+    <div class="container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+
+
+            <div class="container text-center div1_1_123" id="div1_1_1">
+                <h1 class="messages" id="h1_1">Cycle</h1>
+                <p id="p1_1">** This is for explanation purposes only **</p>
+                <br>
+                <button id="button1" type="button" class="btn btn-outline-dark buttons">Show Guide</button>
+
+
+            </div>  
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container background" id="div2">
+        <div class="row" id="non-owner-view">
+            
+            <h1 class="chatroom-header mt-3 mb-3">Vote Week!!!</h1>
+            
+        <!-- THIS IS THE CHATROOMS -->
+        <div class="col-md-3 d-none d-xl-block mx-auto">
+            <h1 class="chatroom-header">Polls</h1>
+            <hr>
+            <ul class="list-group" id="chatroom-list">
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    Doob&Derb
+                    <span id="poo" class="chatroom-count badge bg-light rounded-pill">6.3k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    GARGAMEL
+                    <span class="chatroom-count badge bg-light rounded-pill">4.5k</span>
+                </li>
+                <li class="chatroom list-group-item d-flex justify-content-between align-items-center">
+                    RRddraft
+                    <span class=" chatroom-count badge bg-light rounded-pill">4.2k</span>
+                </li>
+                </ul>
+                <br>
+        </div>
+
+
+
+
+
+        <!-- THIS IS THE FEED -->
+        <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12 mx-auto" id="div2_2">
+
+            <div id="div2_2_1" class="feed-username-likes-icon" data-bs-toggle="tooltip" data-bs-placement="left" title="The Artists will post an idea they have for the next version here. As a member it is your job to vote on your favorite!">
+                <div class="feed-username-div" id="div2_2_1_1">
+                    <h1 class="feed-username" id="h2_2_1">Space Veggies</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes"id="">6350</p>
+
+                    <svg  data-bs-toggle="tooltip" data-bs-placement="bottom" title="As with the Memes, your like is your vote" id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div id="div2_2_2" class="feed-img">
+                <img id="img2_1" src="/static/doge/images/cycle-post3.png" class="img-fluid" alt="...">
+            </div>
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_2">Drippy Dinos</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">4287</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/cycle-post2.png" class="img-fluid" height="1080px" alt="...">
+            </div>
+
+            <div id="" class="feed-username-likes-icon">
+                <div class="feed-username-div" id="">
+                    <h1 class="feed-username" id="h2_2_3">Tiger Thugs</h1>
+                </div>
+
+                <div class="feed-likes-icon" id="div2_2_1_2">
+                    <p class="feed-likes" id="">4541</p>
+
+                    <svg id="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="feed-icon bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="" class="feed-img">
+                <img id="img2" src="/static/doge/images/cycle-post1.png" class="img-fluid" alt="...">
+            </div>
+        </div>
+
+
+
+
+
+        <!-- THIS IS THE PROFILES -->
+        <div class="col-xl-3  col-lg-4 d-none d-lg-block mx-auto" id="">
+            <h1 class="chatroom-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="There is no real reason for the candidates to have a profile, but it is a fun way for them to share a piece of their personality">
+                Profile</h1>
+                <hr>
+
+            <div class="profile-div" id="profile-div">
+                <img id="profile-img" class="img-fluid profile-img" src="/static/doge/images/derb.png" alt="skull gif" />
+                <h1 class="profile-name" id="profile-name">Doob&Derb</h1>
+                <p class="description" id="description">This is actually a real artist, and they and their associated projects are by no means affiliated with the Avant-Gardes. (Although, we would love to have them as candidates for v2.) They are only included for explanation purposes, and because their project's helped inspire this one.</p>
+
+
+
+                
+                </div>
+        </div>
+        </div>
+
+    </div>
+
+
+
+
+    
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/cycle.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/cycle.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+{% endblock %}

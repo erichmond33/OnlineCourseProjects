@@ -1,0 +1,48 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div class="container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+
+
+            <div class="container text-center div1_1_123" id="div1_1_1">
+                <h1 class="messages" id="h1_1">Install Metamask</h1>
+                <a target="_blank" href="https://metamask.io/"><button id="button1" type="button" class="btn btn-outline-dark buttons">Install</button></a>
+            </div>  
+
+
+            <div class="container text-center div1_1_123" id="div1_1_2">
+                <h1 class="messages" id="h1_2">Connect To Metamask</h1>
+                <button id="button2" type="button" class="btn btn-outline-dark buttons">Connect</button>
+            </div>
+
+            
+            <div class="container text-center div1_1_123" id="div1_1_3">
+                <h1 class="messages" id="h1_3">Join Avant-Gardes!</h1>
+                <form id="form1" class="col-8 text-center">
+                    <div class="text-center" id="div3_1">
+                        
+                        <label for="count" class="">Price - .08 eth</label>
+                        <input type="" class="form-control" id="count" placeholder="(0-40) How many do you want? ">
+                        
+                        <button id="button3" type="submit" class="btn btn-outline-dark buttons">Join</button>
+                    </div>
+                </form>
+            </div>  
+            
+
+            <p id="p1"></p>
+        </div>
+    </div>
+
+    
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/join.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/join.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+{% endblock %}

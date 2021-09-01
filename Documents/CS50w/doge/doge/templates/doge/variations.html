@@ -1,0 +1,247 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div class="text-center" id="div1">
+        <form id="form1" method="post">
+            {% csrf_token %}
+            <div id="div1_1" class="row div1_1">
+                
+                <div id="div1_1_2" class="col-4 col-lg-2 div1_1_2">
+                    <label for="input2" class="form-label input123456">Extra</label>
+                    <select id="input2" name="extra" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ extra }}</option>
+                            <option>None</option>
+
+                        {%else%}
+                            <option value="None">{{ previous_selection }}</option>
+                            <option selected>None</option>
+
+                        {% endif %}
+                        <option>Get Hard</option>
+                        <option>69</option>
+                        <option>Airpods</option>
+                        <option>Ranch It Up</option>
+                        <option>Mike Tyson</option>
+                        <option>Swords</option>
+                        <option>Illuminate</option>
+                        <option>Prank</option>
+                        <option>Sniper</option>
+                        <option>Harry</option>
+                        <option>Eye Black</option>
+                        
+                        
+                    </select>
+                </div>
+
+                <div id="div1_1_3" class="col-4 col-lg-2 div1_1_3">
+                    <label for="input3" class="form-label input123456">Eyes</label>
+                    <select id="input3" name="eyes" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ eyes }}</option>
+                            <option>None</option>
+
+                        {%else%}
+                            <option value="None">{{ previous_selection }}</option>
+                            <option selected>None</option>
+
+                        {% endif %}
+                        <option>Wilder</option>
+                        <option>No Eyes</option>
+                        <option>Thug Life</option>
+                        <option>Lazers</option>
+                        <option>Aviators</option>
+                        <option>Rocketman</option>
+                        <option>Purple</option>
+                        <option>Undertaker</option>
+                        <option>Eyepatch</option>
+                        <option>Wolfie</option>
+                        <option>All Knowing</option>
+                        <option>Jackass 3d</option>
+                        <option>Unistyle</option>
+                        <option>Truly Unfortunate</option>
+                        <option>What If I Told You</option>
+                        <option>Wack</option>
+                        <option>Eyeliner</option>
+                        <option>Lines</option>
+                    </select>
+                </div>
+
+                <div id="div1_1_4" class="col-4 col-lg-2 div1_1_4">
+                    <label for="input4" class="form-label input123456">Clothes</label>
+                    <select id="input4" name="clothes" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ clothes }}</option>
+                            <option value="None">None</option>
+
+                        {%else%}
+                            <option value="None">{{ previous_selection }}</option>
+                            <option selected value="None">None</option>
+
+                        {% endif %}
+                        <option>Rick Rolled</option>
+                        <option>McLovin</option>
+                        <option>Harambe</option>
+                        <option>Magnum Dong</option>
+                        <option>Fluffy</option>
+                        <option>DONKEY</option>
+                        <option>Burgundy</option>
+                        <option>Carlos</option>
+                        <option>McCracken</option>
+                        <option>Gravey Train</option>
+                        <option>Idiot Sandwhich</option>
+                        <option>Insertchucknorrisjokehere</option>
+                        <option>Tropic Thunder</option>
+                        <option>Wilder</option>
+                        <option>Wubba Lubba Dub Dub</option>
+                        <option>Houdini</option>
+                        <option>Stratton</option>
+                        <option>Bandolier</option>
+                        <option>Bake</option>
+                        <option>Original</option>
+                        <option>Thriller</option>
+                        <option>Spaceman</option>
+                        <option>Crocodile Hunter</option>
+                        <option>Lloyd</option>
+                        <option>Swamp People</option>
+                        <option>Thrift Shop</option>
+                        <option>Denim Jacket</option>
+                        <option>The Champ Champ</option>
+                        <option>Shake</option>
+                        <option>Doge To The Moon</option>
+                        <option>Nacho</option>
+                        <option>Major Payne</option>
+                        <option>Terminator</option>
+                        <option>Snakeskin</option>
+                        <option>Cowboy</option>
+                        <option>Hotrod</option>
+        
+                    </select>
+                </div>
+
+                <div id="div1_1_5" class="col-4 col-lg-2 div1_1_5">
+                    <label for="input5" class="form-label input123456">Head</label>
+                    <select id="input5" name="head" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ head }}</option>
+                            <option>None</option>
+
+                        {%else%}
+                            <option value="None">{{ previous_selection }}</option>
+                            <option selected>None</option>
+
+                        {% endif %}
+                        <option>The Best Pirate I Have Ever Seen</option>
+                        <option>Wolverine</option>
+                        <option>Tinfoil</option>
+                        <option>Wax On Wac Off</option>
+                        <option>Happy Accidents</option>
+                        <option>Dino</option>
+                        <option>Date Mike</option>
+                        <option>Clark</option>
+                        <option>Somebody Stop Me</option>
+                        <option>Sombrero</option>
+                        <option>Classic Bowler</option>
+                        <option>Captain</option>
+                        <option>Nobody Cares</option>
+                        <option>Ducks</option>
+                        <option>Watermelon</option>
+                        <option>Wolverine Hat</option>
+                        <option>Planet BS</option>
+                        <option>Turds</option>
+                        <option>Indiana Jones</option>
+                        <option>Hulk Hogan</option>
+                        <option>King George</option>
+                        <option>Angus Young</option>
+                        <option>Clint Eastwood</option>
+                        <option>Wildcat</option>
+                        <option>Alright</option>
+                        <option>Eminem</option>
+                        <option>Santa</option>
+                        <option>Joker</option>
+                        <option>Army</option>
+                        
+                    </select>
+                </div>
+
+                <div id="div1_1_6" class="col-4 col-lg-2 div1_1_6">
+                    <label for="input6" class="form-label input123456">Mouth</label>
+                    <select id="input6" name="mouth" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ mouth }}</option>
+                            <option>None</option>
+
+                        {%else%}
+                            <option value="None">{{ previous_selection }}</option>
+                            <option selected>None</option>
+
+                        {% endif %}
+                        <option>Snoop Dogg</option>
+                        <option>Sun Tzu</option>
+                        <option>Tape</option>
+                        <option>Leonardo</option>
+                        <option>Pipe</option>
+                        <option>Hunger Games</option>
+                        <option>Toothpick</option>
+                        <option>Piercing</option>
+                        <option>Speechless</option>
+                        <option>Sam Elliot</option>
+                        <option>Mutton Chops</option>
+                        <option>I Can Quit Whenever I Want</option>
+                        <option>Straw</option>
+                        <option>Shiv</option>
+                        <option>Bull Ring</option>
+                        <option>Pucker Up</option>
+                    </select>
+                </div>
+
+                <div id="div1_1_1" class="col-4 col-lg-2 div1_1_1">
+                    <label for="input1" class="form-label input123456">Backdrop</label>
+                    <select id="input1" name="background" class="form-select" aria-label="Default select example">
+                        {% if previous_selection != "Previous Selection" %}
+                            <option selected>{{ background }}</option>
+                            <option>White</option>
+
+                        {%else%}
+                            <option value="White">{{ previous_selection }}</option>
+                            <option selected>White</option>
+
+                        {% endif %}
+                        <option>Red</option>
+                        <option>Blurple</option>
+                        <option>Green</option>
+                        <option>Dingy Yellorange</option>
+                        <option>Light Blue</option>
+                        <option>Purple</option>
+                        <option>Rainbow</option>
+                        <option>Pink</option>
+                        <option>Too Loud</option>
+                    </select>
+                </div>
+                
+            </div>
+
+
+            <button id="button1" type="submit" class="btn btn-outline-dark button1">View</button>
+            <button id="button2" type="none" class="btn btn-outline-dark button1">Random</button>
+
+        </form>
+    </div>
+
+    <hr>
+
+    <div id="div2" class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-10 mx-auto">
+       {% for path in paths %}
+            <img class="img-fluid rounded mx-auto d-block img123456" src="{{ path }}" alt="skull gif" />
+        {% endfor %}
+    </div>
+   
+{% endblock %}
+
+{% block script %}
+    <link href="{% static 'doge/variations.css' %}" rel="stylesheet">
+    <script src="{% static 'doge/variations.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+{% endblock %}

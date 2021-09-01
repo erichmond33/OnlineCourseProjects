@@ -1,0 +1,364 @@
+{% extends "doge/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+
+    <!-- This is the main logo -->
+    <div class="background container text-center" id="div1">
+        <div class="container text-center" id="div1_1">
+            <div class="background container text-center" id="div1_1_1">
+                <h1 id="h1_1_1">Avant-<br>Gardes</h1>
+                <p id="p1">The Never Ending Art Project</p>
+            </div>
+
+            <hr>
+
+
+            <div class="container text-center" id="div1_1_2">
+                <div class="row justify-content-evenly" id="div1_1_2_1">
+                    
+                    <div class="background col-4 align-self-center" id="div1_1_2_1_1">
+                        <h1 class="" id="h1_1_2">v1</h1>
+                    </div>
+
+                    <div class="col-4 align-self-center background" id="div1_1_2_1_2">
+                        <a id="a1" href="{% url 'join' %}"><h1 class="" id="h1_1_3">Join</h1></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <!-- This is the definition -->
+    <div class="col-md-6 mx-auto" id="div2">
+        <h1 id="h1_2">a·vant-garde</h1>
+        <p id=p2_1>/ˌaväntˈɡärd/</p>
+        <p id="p2_2"><i>noun</i></p>
+        <p id="p2_3">new and unusual or experimental ideas, especially in the arts, or the people introducing them.</p>
+        <p id="p2_4"><i>"works by artists of the American avant-garde"</i></p>
+    </div>
+
+    <hr>
+
+    <!-- This is the Intro -->
+    <div class="container" id="div3">
+        <div class="row">
+            <div class="col-lg-7 my-auto">
+                <h1 id="h1_3_1" class="header text-center">
+                    Never ending art... and memes
+                </h1>
+                <br>
+                <p id="p3_1" class="body p-3">
+                    This is the Avant-Gardes, a limited member club for art and memes.
+                    Currently we are on "Version 1: Rick Rolled". Each version is a drop
+                    of 6969 unique NFTs, and owning one means you are in the club! Being apart
+                    of this club means you can participate in "The Cycle", "The Memes", and "The ATM". This is how you - the member - can make your contribution to
+                    the project.
+                </p>
+            </div>
+            <div class=" background my-lg-auto col-lg-4 col-10 mx-auto offset-lg-1" id="div3_1_2">
+                <div class="common-container" id="">
+                    <div class="row">
+                        <div class="col-6 pb-3 pr-2">
+                        <img class="img-fluid rounded" src="/static/doge/images/demo1.png" alt="skull gif" />
+                        </div>
+                        <div class="col-6 pl-2 pb-2">
+                        <img class="img-fluid rounded" src="/static/doge/images/demo2.png" alt="skull gif" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 pt-2 pr-2">
+                        <img class="img-fluid rounded" src="/static/doge/images/demo3.png" alt="skull gif" />
+                        </div>
+                        <div class="col-6 pt-2 pl-2">
+                        <img class="img-fluid rounded" src="/static/doge/images/demo4.png" alt="skull gif" />
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- This is the cycle -->
+    <div class="row text-center">
+     
+     <div class="col-lg-2 d-none d-lg-block my-auto mx-auto">
+      <img class="img-fluid rounded p-2" src="/static/doge/images/demo5.png" alt="skull gif" />
+      <img class="img-fluid rounded" src="/static/doge/images/demo6.png" alt="skull gif" />
+      <img class="img-fluid rounded p-2" src="/static/doge/images/demo7.png" alt="skull gif" />
+     </div>
+
+     <div class="container col-lg-6 col-md-10 text-center">
+        <h1 class="header">The Cycle</h1>
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active text-center">
+                <img src="/static/doge/images/week_0-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/static/doge/images/weeks1-9.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/static/doge/images/week10.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/static/doge/images/week11.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/static/doge/images/week20.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/static/doge/images/repeat.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+
+      <div class="col-lg-2 d-none d-lg-block my-auto mx-auto">
+        <img class="img-fluid rounded p-2" src="/static/doge/images/demo8.png" alt="skull gif" />
+        <img class="img-fluid rounded" src="/static/doge/images/demo9.png" alt="skull gif" />
+        <img class="img-fluid rounded p-2" src="/static/doge/images/demo10.png" alt="skull gif" />
+       </div>
+
+    </div>
+
+
+    <hr>
+
+    <!-- This is The Memes and The ATM -->
+
+    <div class="row">
+        <div class="col-lg-4">
+            <h1 class="header text-center">
+                The Memes
+            </h1>
+
+            <p class="body p-3" >
+                <span class="bullet">-</span> This is your one stop shop for all of your meme needs.
+                <br>
+                <span class="bullet">-</span> Here you have all the basic functionalities of
+                a social network... with a twist.
+                <br>
+                <span class="bullet">-</span> Post, chat, like, follow, or simply enjoy the
+                high quality memes. Whatever floats your boat.
+                <br>
+                <span class="bullet">-</span> Once you have made a post, now that post is eligible
+                for "The ATM".
+            </p>
+        </div>
+
+
+        <div class="my-lg-auto col-lg-3 col-md-6 col-8 mx-auto">
+            <hr>
+            <img class="img-fluid rounded pt-3 pb-3" src="/static/doge/images/thememestheatm.png" alt="skull gif" />
+            <hr>
+        </div>
+
+
+        <div class="col-lg-4">
+            <h1 id="" class="header text-center">
+                The ATM
+            </h1>
+
+            <p class="body p-3">
+                <span class="bullet">-</span> The <i>ATM</i> is a place where you can make some dough.
+                <br>
+                <span class="bullet">-</span> Each week every meme that is posted can be seen and liked by other members.
+                <br>
+                <span class="bullet">-</span> At the end of each week the owners of the top 3 <u>most liked</u> memes get a free Avant-Garde NFT.
+                <br>
+                <span class="bullet">-</span> The rankings <i>at the moment </i>can be seen at any time during the week.
+            </p>
+        </div>
+    </div>
+
+    <br>
+
+    <p class="text-center" id="p5_1">** Check out an interactive explanation of <a href="{% url 'memes' %}" class="links">"The Memes"</a>, <a href="{% url 'cycle' %}" class="links">"The Cycle"</a>, and <a href="{% url 'atm_memes' %}" class="links">"The ATM"</a> at these links **</p>
+
+    <hr>
+
+    <!-- This is the details -->
+    <div class="container" id="div6">
+        <!--<h1 class="header text-center">
+            The Details
+        </h1>
+        <br>-->
+        <div class="row text-center">
+            <div class="card-group">
+                <div class="card background p-3" id="div6_1_1_1">
+                  <img src="/static/doge/images/meme1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 id="h3_6_1" class="card-title header">Distribution</h5>
+                    <p id="p6_1" class="card-text body">6969 Avant-Gardes priced at .08 ether</p>
+                  </div>
+                </div>
+                <div class="card background p-3" id="div6_1_1_2">
+                  <img src="/static/doge/images/meme2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 id="h3_6_2" class="card-title header">Ownership</h5>
+                    <p id="p6_2" class="card-text body">Members own all rights to their NFT. Period</p>
+                  </div>
+                </div>
+                <div class="card background p-3" id="div6_1_1_3">
+                  <img src="/static/doge/images/meme3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 id="h3_6_3" class="card-title header">Athenticity</h5>
+                    <p id="p6_3" class="card-text body">Verified as an ERC-721 token on the Ethereum blockchain</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--- This is the roadmap -->
+    <div class="container mx-auto" id="div7">
+        <h1 class="header text-center">
+            Roadmap
+        </h1>
+
+    </div>
+
+        <!--<div class="d-block d-lg-none col-xxl-3 col-xl-3 col-10 mx-auto" id="div7_1">
+            <img src="/static/doge/images/delete3.png" class="img-fluid" alt="...">
+        </div>-->
+
+
+
+          <div class="row mx-auto">
+
+
+            <div class="my-lg-auto ms-auto ml-0 col-lg-7 col-md-10 col-12 m-auto">
+                <div class="mb-3 mb-lg-1 row">
+                  <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                    <p class="goal">Week 0</p>
+                  </div>
+                  <div class="m-auto col-lg-9 col-8">
+                    <p class="common-sub-p">Launch. Connect with the Avant-Garde community.</p>
+                  </div>
+                </div>
+                <div class="mb-3 mb-lg-1 row">
+                  <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                    <p class="goal">Week 5</p>
+                  </div>
+                    <div class="m-auto col-lg-9 col-8">
+                      <p class="common-sub-p">All members get to name their Avant-Gardes.</p>
+                      </div>
+                    </div>
+                    <div class="mb-3 mb-lg-1 row">
+                      <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                        <p class="goal">Week 9</p>
+                      </div>
+                      <div class="m-auto col-lg-9 col-8">
+                        <p class="common-sub-p">Added functionalities to "The Memes", "The Cycle", and "The ATM".</p>
+                      </div>
+                    </div>
+                    <div class="mb-3 mb-lg-1 row">
+                      <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                        <p class="goal">Week 10</p>
+                      </div>
+                      <div class="m-auto col-lg-9 col-8">
+                        <p class="common-sub-p">Merch Dropp, and yes we will have white "Wife Beater" tank tops if y'all want them haha.</p>
+                      </div>
+                    </div>
+                    <div class="mb-3 mb-lg-1 row">
+                      <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                        <p class="goal">Week 11</p>
+                      </div>
+                      <div class="m-auto col-lg-9 col-8">
+                        <p class=" common-sub-p">Members claim their free NFT gift for participating in v1.</p>
+                        </div>
+                      </div>
+                      <div class="mb-3 mb-lg-3 row">
+                        <div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                          <p class="goal">Week ??</p>
+                        </div>
+                        <div class="m-auto col-lg-9 col-8">
+                          <p class=" common-sub-p">- TOP SECRET PROJECT -</p>
+                        </div>
+                      </div>
+                      <div class="mb-3 mb-lg-3 row"
+                      ><div class="m-auto col-lg-3 col-4 offset-lg-1 offset-1">
+                        <p class="goal">Week 19</p>
+                      </div>
+                      <div class="m-auto col-lg-9 col-8">
+                        <p class=" common-sub-p">Avant-Garde parties thrown around the globe.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class=" me-lg-auto col-xxl-4 col-lg-5 col-md-9 col-11 m-auto" id="div7_1">
+                    <img src="/static/doge/images/roadmap1.png" class="img-fluid" alt="...">
+                  </div>
+                    <!--<div class="shirt-container mx-auto mb-5 my-lg-auto col-lg-3 col-12 offset-lg-1">
+                      
+                    </div>-->
+
+
+
+
+
+
+
+
+        
+
+ 
+
+    <!-- This is the bottom info-->
+
+    <p id="p7_1" class="text-center">** We want to know what y'all want! **<br>** Connect with us via any of the links below with your suggestions **</p>
+
+    <div id="bottomInfo" class="row background pt-2">
+        <div class="col-12 text-center">
+            <button id="contractAddress" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy Contract Address">Contract</button>
+
+
+            <svg id="twitter" xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-twitter icon" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-discord icon" viewBox="0 0 16 16">
+                <path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z"/>
+                <path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram icon" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+
+              <a href="#email"  >
+              <svg id="email" data-bs-toggle="tooltip" data-bs-placement="top" title="Send Email" xmlns="http://www.w3.org/2000/svg" width="46" height="16" fill="currentColor" class="icon bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>
+              </a>
+
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+{% block script %}
+    <link rel="stylesheet" href="{% static 'doge/about.css' %}">
+    <script src="{% static 'doge/about.js' %}"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+{% endblock %}

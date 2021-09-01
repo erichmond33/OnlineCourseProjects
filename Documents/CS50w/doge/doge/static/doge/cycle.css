@@ -1,0 +1,252 @@
+
+/* ///////////////////////
+//// /This is MEMES
+//////////////////////////
+
+
+/* First div container */
+#div1 {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+
+    padding-top: 5rem;
+    padding-bottom:2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0 0 25px 25px;
+}
+    /* Second div container */
+    #div1_1 {
+        background-attachment: fixed;
+        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+        background-position: -5px -25px;
+        background-repeat: repeat;
+        background-size: auto;
+        text-align: center;
+        background-color: #324731;
+    }
+        /* This is the messages and buttons divs */
+        .div1_1_123 {
+            margin: auto;
+}
+
+            /* Holds the messeges and buttons and text */
+            #h1_1 {
+                font-size: 5vw;
+                color: #c1cdb8;
+                font-family: caslon openface;
+                border-radius: 25px;
+                line-height: 1;
+
+            }
+
+            .buttons {
+                font-family: caslon;
+                background-color: #c1cdb8;
+                border-color: #c1cdb8;
+                color: #324731;
+            }
+
+            .buttons:hover {
+                background-color: transparent;
+                color: #c1cdb8;
+                border-color: #c1cdb8;;
+            }
+
+            .buttons:disabled {
+                background-color: transparent;
+                color: #c1cdb8;
+                border-color: #c1cdb8;;
+            }
+
+            #p1_1 {
+                line-height: 1;
+                color:#c1cdb8;
+                font-family: caslon;
+                font-size: .75rem;
+            }
+/*///////////////////////
+////This is the chatrooms
+//////////////////////////*/
+
+        .chatroom-header {
+            font-family: caslon openface;
+            color: #c1cdb8;
+            font-size: 1.75rem;
+            text-align: center;
+        }
+
+        #chatroom-list {
+            background-color: #c1cdb8;
+            color: #c1cdb8;
+        }
+            .chatroom {
+                font-family: caslon openface;
+                color:#1a2e25;
+                font-size: 1.25rem;
+                background-color: #c1cdb8;
+
+            }
+
+            .chatroom-count {
+                color: #1a2e25;
+                background-color: white;
+            }
+
+            #chatroom-button {
+                font-family: caslon openface;
+                border: none;
+                border-radius: 50%;
+                line-height: 1.5;
+                margin:0;
+                color: #1a2e25;
+            }
+    
+            #chatroom-button:hover {
+                color:#1a2e25;
+            }
+
+
+
+/*////////////////////
+This is the feed
+//////////////////////*/
+
+
+#div2 {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+
+    padding-bottom:2rem;
+    border-radius: 25px 25px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    #div2_2 {
+        background-color: #c1cdb8;
+        border-radius: 0;
+        height: auto;
+        overflow-y:scroll;
+        
+    }
+
+    #div2_2::-webkit-scrollbar {
+        background-color: #c1cdb8;
+        width: 5px;
+        height: 5px;
+    }
+
+    #div2_2::-webkit-scrollbar-thumb {
+        background:#1a2e25;
+    }
+
+        .feed-username-likes-icon {
+            border-bottom: 5px solid #1a2e25;
+            border-top: 5px solid #1a2e25;
+        }
+            /* This holds the names in the feed */
+            .feed-username-div {
+                display: inline-block;
+            }
+            /* This is the class for the names in the feed */
+            .feed-username {
+                font-family: caslon openface;
+                font-size: 1.5rem;
+                color:#1a2e25;
+                margin-left: 1.25rem;
+                margin-top: 8px;
+            }
+            /*This holds the icon and likes */
+            .feed-likes-icon {
+                float: right;
+            }
+
+            .feed-likes{
+                display: inline-block;
+                padding-top: 10px;
+                font-family: caslon;
+                color: #1a2e25;;
+            }
+
+            .feed-icon {
+                height: 30px;
+                width: 30px;
+
+                margin-right: 15px;
+                padding-right: 0;
+                color:#1a2e25;
+            }
+
+        .feed-img {
+            display: block;
+        }
+
+/*///////////////////////
+///////This is the profiles
+/////////////////////*/
+
+        .profile-div {
+            height:auto;
+            overflow-y:scroll;
+        }
+        .profile-div::-webkit-scrollbar {
+            background-color: transparent;
+            width: 5px;
+            height: 5px;
+        }
+    
+        .profile-div::-webkit-scrollbar-thumb {
+            background:#c1cdb8;
+        }
+
+            .profile-img {
+                border-radius: 50%;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            .profile-name {
+                padding-top:10px;
+                font-size: 1.5rem;
+                font-family: caslon openface;
+                text-align: center;
+                color:#c1cdb8;
+            }
+            .description {
+                border-top: 5px solid #c1cdb8;
+                padding-top:10px;
+                font-size: 1rem;
+                font-family: caslon;
+                text-align: center;
+                color:#c1cdb8;
+            }
+                .profile-post-div {
+                    border-top: 3px solid #c1cdb8;
+                }
+                    .profile-likes {
+                        display: inline-block;
+                        font-family: caslon;
+                        color:#c1cdb8;
+                        margin: 0;
+                    }
+                    .profile-icon {
+                        color:#c1cdb8;
+                    }
+
+
+
+
+
+
+
+        
+
+

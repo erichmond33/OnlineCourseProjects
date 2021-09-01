@@ -1,0 +1,222 @@
+/* ------------ This is the layout -----------*/
+
+#navbarFoldout {
+    text-align: center;
+    border-radius: 25px;
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+}
+#navbarFoldout2 {
+    display: none;
+    text-align: center;
+    border-radius: 25px;
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+}
+#navBar {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+}
+#navbar-brand {
+    color: #c1cdb8;
+    font-family: caslon openface;
+}
+#dropdown-menu {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+
+    border:none;
+}
+#qrcode {
+    height: 25px;
+}
+
+
+
+#no-login-view1 > a {
+    color: #c1cdb8;
+    font-family: caslon openface;
+}
+
+#no-login-view2 > a {
+    color: #c1cdb8;
+    font-family: caslon openface;
+}
+
+#no-login-view3 > a {
+    color: #c1cdb8;
+    font-family: caslon openface;
+}
+
+#no-login-view1 > a:hover {
+    color: white;
+}
+
+#no-login-view2 > a:hover {
+    color: white;
+}
+
+#no-login-view3 > a:hover {
+    color: white;
+}
+
+
+
+#login-view1 {
+    font-family: caslon;
+}
+#login-view1 > a {
+    color: #c1cdb8;
+    font-family: caslon;
+}
+#login-view2 {
+    display: none;
+    font-family: caslon;
+}
+#login-view2 > a {
+    color: #c1cdb8;
+    font-family: caslon;
+}
+#login-view3 {
+    display: none;
+    font-family: caslon;
+}
+#login-view3 > a {
+    color: #c1cdb8;
+    font-family: caslon;
+}
+
+#dropdown-menu > li > a {
+    color: #c1cdb8;
+    font-family: caslon openface;
+}
+
+#dropdown-menu > li > a:hover {
+    background-color: transparent;
+    color: white;
+    font-family: caslon openface;
+}
+
+
+#login-button {
+    background-color: #c1cdb8;
+    border-color: #c1cdb8;
+    color: #1a2e25;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-family: caslon;
+}
+#login-button:hover {
+    background-color: transparent;
+    border-color: #c1cdb8;
+    color: #c1cdb8;
+}
+
+
+
+#body {
+    background-color: #c1cdb8;
+}
+#main_container {
+    background-color: #c1cdb8;;
+}
+#brand-div {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+}
+#brand {
+    color: black;
+    padding-top: 2.4rem;
+    padding-bottom: 1rem;
+    font-family: Caslon Openface;
+}
+@keyframes doge {
+    0% {
+        border-radius: 0;
+    }
+
+    100% {
+        border-radius: 0 0 400px 400px;
+    }
+}
+#logo {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #324731;
+    border-radius: 10px;
+
+    animation: doge 1s;
+}
+
+
+
+
+
+
+
+
+#testing {
+  
+    text-align: center;
+}
+
+
+
+#test2 {
+    position: absolute;
+
+    border-radius: 10px;
+
+
+
+}
+
+#test3 {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+    border-radius: 10px;
+
+    color: #c1cdb8;
+    font-size: 10vw;
+    font-family: caslon openface;
+}
+/*
+#divv > h1 {
+    background-attachment: scroll;
+    background-image: url("/static/doge/iages/repeat.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: top right;
+
+    color: #324731;
+    font-size: 10vw;
+    font-family: caslon openface;
+    line-height: 1;
+}*/
+

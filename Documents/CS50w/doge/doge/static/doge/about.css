@@ -1,0 +1,298 @@
+/*/////////////////////////
+///// Just some basic classes that are used often
+////////////////////////////*/
+
+.header {
+    color: #1a2e25;
+    font-family: Calson;
+}
+.body {
+    color: white;
+    font-family: caslon;
+    font-size: 1.25rem;
+}
+.background {
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-position: -5px -25px;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.links {
+    color: #1a2e25;
+}
+.links:hover {
+    color: white;
+}
+
+
+/* /////////////////////
+///// This is the main logo at the top
+////////////////////////*/
+
+
+/* First div container */
+#div1 {
+    background-color: #324731;
+    padding-top: 5rem;
+    padding-bottom:2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0 0 25px 25px;
+}
+    /* Second div container, holds the background image */
+    #div1_1 {
+        background-attachment: fixed, scroll;
+        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"), url("/static/doge/images/background6.jpg");
+        background-position: -5px -25px, 0 50%;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, cover;
+        text-align: center;
+        background-color: #324731;
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+        /* Holds the h1 */
+        #div1_1_1 {
+            width: min-content;
+            border-radius: 25px;
+            border: 1px solid #c1cdb8;
+
+}
+            /* Holds Avvant Gardess */
+            #h1_1_1 {
+
+                font-size: 10vw;
+                color: #c1cdb8;
+                font-family: caslon openface;
+                border-radius: 25px;
+                line-height: 1;
+
+            }
+            #p1 {
+                color: #c1cdb8;
+                font-family: caslon;
+                font-size: 2vw;
+            }
+                /* Holds the h1_2 */
+                #div1_1_2_1_1 {
+                    border-radius: 25px;
+                    border: 1px solid #c1cdb8;
+
+                }
+                    /* Holds v1 */
+                    #h1_1_2 {
+                        font-size: 7vw;
+                        color: #c1cdb8;
+                        font-family: caslon openface;
+                        border-radius: 25px;
+                        line-height: 1;
+                    }
+                /* Holds the h1_3 */
+                #div1_1_2_1_2 {
+                    background-color: #324731;
+
+                    border-radius: 25px;
+                    border: 1px solid #c1cdb8;
+                }
+                #div1_1_2_1_2:hover {
+                    background-color: #c1cdb8;
+                    background-image: none;
+                }
+                    /* Holds Join */
+                    #h1_1_3 {
+                        font-size: 7vw;
+                        color: #c1cdb8;
+                        font-family: caslon;
+                        border-radius: 25px;
+                        line-height: 1;
+                    }
+                    #h1_1_3:hover {
+                        color:#324731;
+                    }
+                    #a1 {
+                        color: #c1cdb8;
+                        text-decoration-color: #c1cdb8;
+                    }
+
+/*///////////////////////////
+///// This is the definition
+////////////////////////////
+
+/* Holds the definition */
+    #h1_2 {
+        font-family: caslon;
+        margin-left: 5%;
+        margin-top:10%;
+    }
+
+    #p2_1 {
+        font-family: caslon;
+        margin-left: 5%;
+    }
+    #p2_2 {
+        font-family: caslon;
+    }
+
+    #p2_3 {
+        font-family: caslon;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+
+    #p2_4 {
+        font-family: caslon;
+        margin-left: 5%;
+        margin-top:0;
+        margin-bottom: 10%;;
+    }
+
+
+/*//////////////////////////
+////// This is the introduction
+////////////////////////////*/
+
+                /* This holds the pictures */
+                #div3_1_2 {
+                    color: white;
+                    border-radius: 10px;
+                    padding: 10px;
+            
+                    background-color: #324731;
+                
+                }
+
+
+/*////////////////////////////
+////// This holds the cylce
+//////////////////////////////*/
+
+
+
+/*////////////////////////////
+//// This holds The Memes and The ATM
+//////////////////////////////*/
+
+#p5_1 {
+    font-size: .75rem;
+    color: #324731;
+    font-family: caslon;
+}
+
+.bullet {
+    font-size: 3rem;
+    color: #324731;
+    font-family: caslon openface;
+    line-height: 1;
+}
+/*/////////////////////////////
+////// This holds the details
+/////////////////////////////*/
+
+                /* This is a single card */
+                #div6_1_1_1 {
+                    background-color: #324731;
+                }
+                    /* This is the card header */
+                    #h3_6_1 {
+                        color: #c1cdb8;
+                        font-family: caslon openface;
+                    }
+                    /* This is the card body */
+                    #p6_1 {
+                        font-size: 1rem;
+                    }
+
+                #div6_1_1_2 {
+                    background-color: #324731;
+                }
+
+                    #h3_6_2 {
+                        color: #c1cdb8;
+                        font-family: caslon openface;
+                    }
+                    #p6_2 {
+                        font-size: 1rem;
+                    }
+
+                #div6_1_1_3 {
+                    background-color: #324731;
+                }
+
+                    #h3_6_3 {
+                        color: #c1cdb8;
+                        font-family: caslon openface;
+                    }
+                    #p6_3 {
+                        font-size: 1rem;
+                    }
+
+
+/*/////////////////////////
+////This holds the roadmap
+//////////////////////////*/
+
+    /* This holds the image */
+
+    /* This is a small message */
+    #p7_1 {
+        font-size: .75rem;
+        color: #324731;
+        font-family: caslon;
+    }
+
+    .goal {
+        font-family: caslon openface;
+        color:#1a2e25;
+        font-size: 1.75rem;
+        border-right: 3px solid #1a2e25;
+    }
+    .common-sub-p{
+        font-family: caslon;
+        color: white;
+        font-size: 1.25rem;
+    }
+
+
+/*////////////////////
+//// Bottom of the page
+///////////////////*/
+
+#bottomInfo {
+    background-color: #324731;
+    border-radius: 25px 25px 0 0;
+}
+
+#contractAddress {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-right: 2rem;
+    margin-left: .5rem;
+    color:#1a2e25;
+    font-family: caslon;
+    background-color: #c1cdb8;
+    border-color: #c1cdb8;
+    display: inline-block;
+}
+
+#contractAddress:hover {
+    color:#c1cdb8;
+    background-color: transparent;    
+}
+
+.icon {
+    color: #c1cdb8;
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width: 28px;
+    height: 28px;
+}
+
+.icon:hover {
+    color: white;
+}
+
+
