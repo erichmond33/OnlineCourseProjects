@@ -1,0 +1,55 @@
+/* ------ LAYOUT ------ */
+@keyframes shrink {
+    0% {
+        right: -15px;
+        bottom: -40px;
+        border-radius: 0px;
+
+    }
+    75% {
+        border-radius: 25px;
+    }
+    100% {
+        border-radius: 50px;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+
+#new_post {
+    position: fixed;
+    border-radius: 50px;
+    right: 50px;
+    bottom: 50px;
+    animation-name: shrink;
+    animation-duration: 2s;
+}
+
+#post_link {
+    color: white;
+}
+
+@keyframes advice {
+    0% {
+        right: -300px;
+        opacity: 1;
+    }
+    75% {
+        right: 120px;
+        opacity: 1;
+    }
+    100% {
+        right: 120px;
+        opacity: 0;
+    }
+}
+
+#advice {
+    animation-name: advice;
+    animation-duration: 4s;
+    color:red;
+    position: fixed;
+    bottom: 45px;
+    right:120px;
+    opacity: 0;
+}
